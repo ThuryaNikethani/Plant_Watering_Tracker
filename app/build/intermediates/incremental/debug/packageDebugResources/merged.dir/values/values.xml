@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F1F8E9</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light">#66BB6A</color>
+    <color name="green_primary">#2E7D32</color>
+    <color name="orange_warning">#FB8C00</color>
+    <color name="red_alert">#E53935</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Plant Watering Tracker</string>
+    <style name="Theme.PlantWateringTracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorPrimaryVariant">#1B5E20</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#66BB6A</item>
+        <item name="colorSecondaryVariant">#43A047</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

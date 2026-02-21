@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header card -->
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="24dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/tvDetailEmoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="64sp" />
+
+                <TextView
+                    android:id="@+id/tvDetailName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#1B5E20"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/tvDetailSpecies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#757575"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Info card -->
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🗓 Watering Schedule"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:id="@+id/tvDetailInterval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#424242" />
+
+                <TextView
+                    android:id="@+id/tvDetailLastWatered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/tvDetailNextWatering"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:layout_marginTop="4dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EEEEEE"
+                    android:layout_marginVertical="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📝 Notes"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvDetailNotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#616161" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Action buttons -->
+        <Button
+            android:id="@+id/btnDetailWater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💧 Water Now"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnDetailShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📤 Share Care Tip"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnDetailDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗑 Remove Plant"
+            android:backgroundTint="#EF5350" />
+
+    </LinearLayout>
+</ScrollView>
