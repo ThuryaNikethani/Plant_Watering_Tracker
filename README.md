@@ -4,11 +4,6 @@ A simple Android app to track your houseplants and never forget to water them ag
 
 ---
 
-## 📱 Screenshots
-
-> Add screenshots of your app here after building it.
-
----
 
 ## ✨ Features
 
@@ -33,24 +28,6 @@ A simple Android app to track your houseplants and never forget to water them ag
 | **BottomNavigationView** | Switching between fragments |
 | **FloatingActionButton** | Launching Add Plant screen |
 | **AlertDialog** | Confirming plant deletion |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Android Studio Hedgehog (2023.1.1) or newer
-- Android SDK 24+
-- Java 8+
-
-### Run the App
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/PlantWateringTracker.git
-   ```
-2. Open the project in **Android Studio** using **File → Open**
-3. Let Gradle sync complete
-4. Run on an emulator or physical device (API 24+)
 
 ---
 
@@ -103,8 +80,8 @@ app/src/main/
 
 ---
 
-## 📄 License
+## 👨‍💻 Author
 
-```
-MIT License — free to use, modify, and distribute.
-```
+Made with ❤️ and Java
+
+---
