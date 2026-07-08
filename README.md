@@ -81,6 +81,9 @@ app/src/main/
 ---
 
 ## 👨‍💻 Author
+[Thurya Nikethani(Thinu)](https://github.com/ThuryaNikethani)
+
+---
 
 Made with ❤️ and Java
 
